@@ -5,13 +5,13 @@ body {
 
 section {
   width: 60%;
-  height: 38em;
+  height: 90vh;
   margin: 10px auto;
   background-color: #fff;
   padding: 10px 15px 20px 15px;
 }
 .chat {
-  height: 37em;
+  height: 82vh;
   width: 100%;
   overflow-y: auto;
 }
@@ -141,14 +141,7 @@ section {
 
 
 
-#inputMsg {
-   position:absolute;
-   bottom:0px;
-   width:60%;
-   margin: 0px 0px 5px 0px;
-   height:5%;   /* Height of the footer */
-   background:#6cf;
-}
+
 ::selection{
   background: rgba(82,179,217,0.3);
   color: inherit;
@@ -198,7 +191,8 @@ input.textarea {
     left: 0px;
     right: 0px;
     width: 54%;
-    height: 50px;
+    height: 10vh;
+    max-height: 50px;
     z-index: 1;
     background: #fafafa;
     border: none;
@@ -464,7 +458,7 @@ input.textarea {
   opacity: 0;
   padding: 20px 0px;
   height: 100%;
-  background-color: #52b3d9;
+  background-color: #51D88C;
   color: #fff;
   transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
 }
@@ -593,4 +587,9 @@ tbody:hover tr:hover td {
   position: relative;
   padding: 0x 0x 0x 0x;
   overflow-x: hidden;
+}
+
+
+#typers {
+  bottom: 0px;
 }
