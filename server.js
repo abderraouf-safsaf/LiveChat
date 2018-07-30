@@ -10,8 +10,10 @@ function start(express)	{
 
 	app.use(express.static(__dirname + '/'));
 
-	http.listen(3000, function()	{
-		console.log('Listening on *:3000');
+	const PORT = process.env.PORT || 3000;
+
+	http.listen(PORT, function()	{
+		console.log('Listening on *: ' + PORT);
 	});
 
 	return http;
