@@ -1,1 +1,1 @@
-![alt text](http://url/to/img.png)
+![alt screenshot](https://raw.githubusercontent.com/abderraouf-safsaf/live_chat/master/screen_shot/live_chat.PNG)
