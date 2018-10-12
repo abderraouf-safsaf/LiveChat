@@ -1,2 +1,0 @@
-$('.hider').click ()->
-  $(@).parent('.message').removeClass('blur')
